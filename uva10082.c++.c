@@ -1,0 +1,107 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char ch[1000];
+    int l,i;
+    while(gets(ch))
+    {
+        l=strlen(ch);
+        for(i=0;i<=l;i++)
+        {
+            if(ch[i]=='1')
+                printf("`");
+            if(ch[i]=='2')
+                printf("1");
+            if(ch[i]=='3')
+                printf("2");
+            if(ch[i]=='4')
+                printf("3");
+            if(ch[i]=='5')
+                printf("4");
+            if(ch[i]=='6')
+                printf("5");
+            if(ch[i]=='7')
+                printf("6");
+             if(ch[i]=='8')
+                printf("7");
+             if(ch[i]=='9')
+                printf("8");
+             if(ch[i]=='0')
+                printf("9");
+             if(ch[i]=='-')
+                printf("0");
+             if(ch[i]=='=')
+                printf("-");
+            if(ch[i]=='W')
+               printf("Q");
+           if(ch[i]=='E')
+               printf("W");
+           if(ch[i]=='R')
+               printf("E");
+           if(ch[i]=='T')
+               printf("R");
+           if(ch[i]=='Y')
+               printf("T");
+           if(ch[i]=='U')
+               printf("Y");
+           if(ch[i]=='I')
+               printf("U");
+           if(ch[i]=='O')
+               printf("I");
+           if(ch[i]=='P')
+               printf("O");
+           if(ch[i]=='[')
+               printf("P");
+           if(ch[i]==']')
+               printf("[");
+            if(ch[i]=='\\')
+               printf("]");
+           if(ch[i]=='S')
+               printf("A");
+           if(ch[i]=='D')
+               printf("S");
+           if(ch[i]=='F')
+               printf("D");
+           if(ch[i]=='G')
+               printf("F");
+           if(ch[i]=='H')
+               printf("G");
+           if(ch[i]=='J')
+               printf("H");
+           if(ch[i]=='K')
+               printf("J");
+           if(ch[i]=='L')
+               printf("K");
+           if(ch[i]==';')
+               printf("L");
+           if(ch[i]=='\'')
+               printf(";");
+           if(ch[i]=='X')
+               printf("Z");
+           if(ch[i]=='C')
+               printf("X");
+           if(ch[i]=='V')
+               printf("C");
+           if(ch[i]=='B')
+               printf("V");
+           if(ch[i]=='N')
+               printf("B");
+           if(ch[i]=='M')
+               printf("N");
+           if(ch[i]==',')
+               printf("M");
+           if(ch[i]=='.')
+               printf(",");
+           if(ch[i]=='/')
+               printf(".");
+           if(ch[i]==' ')
+               printf(" ");
+           if(ch[i]=='\n')
+               printf("\n");
+        }
+        printf("\n");
+    }
+    return 0;
+}
